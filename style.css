@@ -12,13 +12,15 @@ main{
     max-height: 613px;
 }
 
-.right-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border: 2px solid white;
-    max-width: 800px;
-    max-height: 600px;
+
+@media screen and (max-width: 900px) {
+
+    .left-container{
+        flex-direction: column;
+        max-width: 800px;
+        max-height: 600px;
+    }
+       
 }
 
 div{
